@@ -25,7 +25,7 @@
 		<one-of>
 			<item>make a call</item>
 		<item>call <slot predicate="contact_to_call" type="individual"/></item>
-		<item>call <slot predicate="contact_to_call" type="individual"/> <slot predicate="number_type_to_call" type="individual"/></item>
+		<item>call <slot predicate="contact_to_call" type="individual"/>'s <slot predicate="number_type_to_call" type="individual"/></item>
 		<item><slot predicate="contact_to_call" type="individual"/></item>
 		</one-of>
 	</action>
@@ -37,11 +37,8 @@
 	  <item>mobile number</item>
     </one-of>
   </individual>
-  
-
+	
 	<individual name="contact_john">John</individual>
-	
-	
 	<individual name="contact_mary">Mary</individual>
   
   
