@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="CallJohnDomain" is_super_domain="true">
+
+  <goal type="perform" action="top">
+    <plan>
+      <forget_all/>
+      <findout type="goal"/>
+    </plan>
+  </goal>
+  <goal action="make_call" type="perform">
+    <plan>
+      <findout type="wh_question" predicate="contact_to_call"/>
+      <findout type="wh_question" predicate="number_type_to_call"/>
+	  <invoke_service_action name="MakeCall" postconfirm="true"/>
+     </plan>
+  </goal>
+  
+  <parameters question_type="wh_question" predicate="phone_number_of_contact" source="service"
+              incremental="true" sort_order="alphabetic" max_spoken_alts="3">
+  </parameters>
+
+
+  <goal type="resolve" question_type="wh_question" predicate="phone_number_of_contact">
+    <plan>
+      <findout type="wh_question" predicate="contact_to_call"/>
+      <findout type="wh_question" predicate="number_type_to_call"/>
+	  <invoke_service_query type="wh_question" predicate="phone_number_of_contact"/>
+	  <forget predicate="contact_to_call"/>
+    </plan>
+   </goal>
+
+</domain>
