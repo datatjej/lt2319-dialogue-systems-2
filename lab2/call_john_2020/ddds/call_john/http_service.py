@@ -147,8 +147,8 @@ def make_call():
         json.dump(PHONEBOOK, json_file)
     return action_success_response()
 	
-#@app.route("/phone_number_of_contact", methods=['POST'])
-#def phone_number_of_contact():
-#    phone_number_of_contact = PHONEBOOK["contact_to_call"]["number_type_to_call"]
-#    return query_response(value=phone_number_of_contact, grammar_entry=None)
+@app.route("/phone_number_of_contact", methods=['POST'])
+def phone_number_of_contact():
+    phone_number_of_contact = PHONEBOOK["contact_to_call"]["number_type_to_call"]
+    return query_response(value=phone_number_of_contact, grammar_entry=None)
 	
