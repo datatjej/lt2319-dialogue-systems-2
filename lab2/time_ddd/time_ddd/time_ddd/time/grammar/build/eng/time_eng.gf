@@ -1,0 +1,53 @@
+--# -coding=utf-8
+concrete time_eng of time = TDM_eng, Integers_eng ** open Utils_eng, Prelude in {
+
+lin
+
+top = (mkverb "main menu" "main menu" "main menu"|mkverb "top" "top" "top"|mkverb "beginning" "beginning" "beginning"|mkverb "cancel" "cancel" "cancel"|mkverb "forget it" "forget it" "forget it"|mkverb "never mind" "never mind" "never mind"|mkverb "abort" "abort" "abort");
+set_time_request_1 hour_to_set = ss ("set the time to " ++ hour_to_set.s);
+set_time_request_2 hour_to_set minute_to_set = ss ("set the time to " ++ hour_to_set.s ++ " " ++ minute_to_set.s);
+set_time = (mkverb "set the time" "set the time" "set the time"|mkverb "set the clock" "set the clock" "set the clock"|mkverb ("" ++ CAPIT ++ "i want to set the time") ("" ++ CAPIT ++ "i want to set the time") ("" ++ CAPIT ++ "i want to set the time")|mkverb ("" ++ CAPIT ++ "i want to set the clock") ("" ++ CAPIT ++ "i want to set the clock") ("" ++ CAPIT ++ "i want to set the clock"));
+up = (mkverb "up" "up" "up"|mkverb "back" "back" "back"|mkverb "go back" "go back" "go back");
+set_alarm_request_3 selected_alarm_time = ss ("set the alarm to " ++ selected_alarm_time.s);
+set_alarm = (mkverb "set the alarm" "set the alarm" "set the alarm");
+eight = ss (("08:00"|"8:00"|"8"|"08"|"eight"));
+eight_thirty = ss (("08:30"|"8:30"|"8 30"|"08 30"|"eight thirty"));
+nine = ss (("09:00"|"9:00"|"09"|"9"|"nine"));
+alarm_off = ss (("off"));
+current_time = ss (("the current time"));
+current_time_resolve_ynq_4 = resolve_ynq current_time;
+ask_current_time = ss (("what time is it"|"the current time"|"what it the current time"));
+current_time_sys_answer individual = answer (("" ++ CAPIT ++ "the time is") ++ individual.s);
+current_time_sortal_usr_answer answer = answer;
+current_time_propositional_usr_answer answer = answer;
+hour_to_set = ss "what hour";
+hour_to_set_sys_answer_small individual = individual;
+hour_to_set_sys_answer_large individual = answer individual.s;
+hour_to_set_propositional_usr_answer answer = answer;
+hour_to_set_sortal_usr_answer answer = answer;
+selected_alarm_time = ss "what time do you want to set your alarm to";
+selected_alarm_time_sys_answer individual = answer (individual.s) individual.s;
+selected_alarm_time_sortal_usr_answer answer = answer;
+selected_alarm_time_propositional_usr_answer answer = answer;
+alarm_time_user_answer answer = answer;
+alarm_time_individual individual = individual;
+current_alarm = ss (("the current alarm"));
+current_alarm_resolve_ynq_5 = resolve_ynq current_alarm;
+ask_current_alarm = ss (("whats the alarm"|"the current alarm"|"what it the current alarm"));
+current_alarm_sys_answer individual = answer (("" ++ CAPIT ++ "the alarm is") ++ individual.s) individual.s;
+current_alarm_sortal_usr_answer answer = answer;
+current_alarm_propositional_usr_answer answer = answer;
+alarm_time_user_answer answer = answer;
+alarm_time_individual individual = individual;
+minute_to_set = ss "what minute";
+minute_to_set_sys_answer_small individual = individual;
+minute_to_set_sys_answer_large individual = answer individual.s;
+minute_to_set_propositional_usr_answer answer = answer;
+minute_to_set_sortal_usr_answer answer = answer;
+unknown_string unknown = unknown;
+mkUnknown string = string;
+report_ended_SetTime_6 hour_to_set minute_to_set = ss ("the time is set to " ++ hour_to_set.alt ++  BIND ++ ":" ++ minute_to_set.alt ++ ".");
+report_failed_SetTime_undefined_failure_7 hour_to_set minute_to_set = undefined_service_action_failure;
+report_ended_SetAlarm_8 selected_alarm_time = ss ("the alarm is set to " ++ selected_alarm_time.alt ++ ".");
+report_failed_SetAlarm_undefined_failure_9 selected_alarm_time = undefined_service_action_failure;
+}
