@@ -23,9 +23,11 @@
   
     <action name="make_call">
 		<one-of>
-			<item>make a call</item>
+		<item>make a call</item>
+		<item>I want to call</item>
 		<item>call <slot predicate="contact_to_call" type="individual"/></item>
 		<item>call <slot predicate="contact_to_call" type="individual"/>'s <slot predicate="number_type_to_call" type="individual"/></item>
+		<item>call <slot predicate="contact_to_call" type="individual"/> <slot predicate="number_type_to_call" type="individual"/></item>
 		<item><slot predicate="contact_to_call" type="individual"/></item>
 		</one-of>
 	</action>
@@ -38,8 +40,23 @@
     </one-of>
   </individual>
 	
-	<individual name="contact_john">John</individual>
-	<individual name="contact_mary">Mary</individual>
+	<individual name="contact_mary">
+    <one-of>
+      <item>Mary</item>
+	  <item>mary</item>
+	  <item>Mary's</item>
+	  <item>mary's</item>
+    </one-of>
+  </individual>
+  
+  <individual name="contact_john">
+    <one-of>
+      <item>John</item>
+	  <item>john</item>
+	  <item>John's</item>
+	  <item>john's</item>
+    </one-of>
+  </individual>
   
   
     <individual name="work">
@@ -61,10 +78,14 @@
   
   <question type="wh_question" predicate="phone_number_of_contact" speaker="user">
      <one-of>
-       <item>what is  <slot predicate="contact_to_call" type="individual"/>'s number</item>
+       <item>what is <slot predicate="contact_to_call" type="individual"/>'s number</item>
+	   <item>what is <slot predicate="contact_to_call" type="individual"/> number</item>
        <item>what is <slot predicate="contact_to_call" type="individual"/>'s <slot predicate="number_type_to_call" type="individual"/> number</item>
       <item>what is <slot predicate="contact_to_call" type="individual"/>'s <slot predicate="number_type_to_call" type="individual"/></item>
+	  <item>what is <slot predicate="contact_to_call" type="individual"/> <slot predicate="number_type_to_call" type="individual"/></item>
       <item>i want to know a contact's phone number</item>
+	  <item>i want to know the contact's phone number</item>
+	  <item><slot predicate="contact_to_call" type="individual"/></item>
      </one-of>
   </question>
  
