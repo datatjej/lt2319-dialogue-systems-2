@@ -29,7 +29,6 @@
 		<item>call <slot predicate="contact_to_call" type="individual"/></item>
 		<item>call <slot predicate="contact_to_call" type="individual"/>'s <slot predicate="number_type_to_call" type="individual"/></item>
 		<item>call <slot predicate="contact_to_call" type="individual"/> <slot predicate="number_type_to_call" type="individual"/></item>
-		<item><slot predicate="contact_to_call" type="individual"/></item>
 		</one-of>
 	</action>
   
@@ -87,7 +86,7 @@
       <item>i want to know a contact's phone number</item>
 	  <item>i want to know the contact's phone number</item>
 	  <item>I want to know a contact's number</item>
-	  <item><slot predicate="contact_to_call" type="individual"/></item>
+
      </one-of>
   </question>
  
