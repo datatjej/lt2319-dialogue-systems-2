@@ -2,17 +2,16 @@
 <ontology name="CallJohnOntology">
 
   <action name="make_call"/>
-  <sort name="contact"/>
-  <sort name="number_type"/>
 
   <predicate name="contact_to_call" sort="contact"/>
   <predicate name="number_type_to_call" sort="number_type"/>
   <predicate name="phone_number_of_contact" sort="string"/>
   
+  <sort name="contact"/>
+  <sort name="number_type"/>
+  
   <individual name ="contact_john" sort ="contact"/>
   <individual name ="contact_mary" sort ="contact"/>
-
-
   <individual name="mobile" sort="number_type"/>
   <individual name="work" sort="number_type"/>
   <individual name="home" sort="number_type"/>

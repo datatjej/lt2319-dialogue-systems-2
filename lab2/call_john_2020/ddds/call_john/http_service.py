@@ -24,6 +24,8 @@ PHONEBOOK["contact_john"]["home"] = "031122363"
 PHONEBOOK["contact_mary"]["mobile"] = "0706574839"
 PHONEBOOK["contact_mary"]["work"] = "0784736475"
 PHONEBOOK["contact_mary"]["home"] = "031847528"
+
+
 with open('call_john/contacts.json', "w") as json_file:
     json.dump(PHONEBOOK, json_file)
 	
@@ -149,6 +151,9 @@ def make_call():
 	
 @app.route("/phone_number_of_contact", methods=['POST'])
 def phone_number_of_contact():
-    phone_number_of_contact = PHONEBOOK["contact_to_call"]["number_type_to_call"]
-    return query_response(value=phone_number_of_contact, grammar_entry=None)
+	payload = request.get_json()
+	contact_to_call = payload["context"]["facts"]["contact_to_call"]["value"]
+	number_type_to_call = payload["context"]["facts"]["number_type_to_call"]["value"]
+	phone_number_of_contact = PHONEBOOK[contact_to_call][number_type_to_call]
+	return query_response(value=phone_number_of_contact, grammar_entry=None)
 	

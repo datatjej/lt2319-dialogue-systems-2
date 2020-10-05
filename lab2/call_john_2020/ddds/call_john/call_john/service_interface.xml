@@ -13,7 +13,10 @@
   </action>
   
    <query name="phone_number_of_contact">
-    <parameters/>
+      <parameters>
+          <parameter predicate="contact_to_call" format="value"/>
+          <parameter predicate="number_type_to_call" format="value"/>
+      </parameters>      
     <target>
       <http endpoint="http://http-service/phone_number_of_contact"/>
     </target>
