@@ -7,6 +7,9 @@
       <findout type="goal"/>
     </plan>
   </goal>
+  
+  
+  
   <goal action="make_call" type="perform">
     <plan>
       <findout type="wh_question" predicate="contact_to_call"/>
@@ -25,7 +28,7 @@
       <findout type="wh_question" predicate="contact_to_call"/>
       <findout type="wh_question" predicate="number_type_to_call"/>
 	  <invoke_service_query type="wh_question" predicate="phone_number_of_contact"/>
-	  <forget predicate="contact_to_call"/>
+		<forget predicate="number_type_to_call"/>
     </plan>
    </goal>
 
