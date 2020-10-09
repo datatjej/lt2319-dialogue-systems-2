@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="WeatherOntology">
+
+ <!-- Tip: try using the "city name,country code" API format first; this makes for a simpler solution (however, it seems a bit unreliable) --> 
+ 
+ <sort name="city" dynamic="true"/>
+ <sort name="country" dynamic="true"/>
+ 
+ <predicate name="city_to_search" sort="city"/>
+ <predicate name="country_to_search" sort="country"/>
+ <predicate name="temperature" sort="string"/>
+ <predicate name="weather" sort="string"/>
+ 
+ <individual name="city_london" sort="city"/>
+ <individual name="city_gothenburg" sort="city"/>
+ <individual name="city_malmo" sort="city"/>
+ <individual name="city_stockholm" sort="city"/> 
+ 
+ <individual name="country_sweden" sort="country"/> 
+ <individual name="country_uk" sort="country"/> 
+
+</ontology>
