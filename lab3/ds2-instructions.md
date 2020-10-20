@@ -18,7 +18,7 @@ For testing and interacting with your dialogue applications you will use a remot
 You may need to follow the following steps only once (we cannot assure it though).
 
 1. Log into to "eduserv" via SSH. In order to access the Kubernetes cluster from your machine, you need to tunnel the port 16443 to your localhost (aka 127.0.0.1).
-`$ ssh -p 62266 -Y -L 16443:127.0.0.1:16443 gusXXXXXX@eduserv.flov.gu.se`
+`$ ssh -p 62266 -Y -L 16443:127.0.0.1:16443 guserbto@eduserv.flov.gu.se`
 You just need to start this session and let it run on the background. Run the rest of the steps in your own machine as the requirements specified above are not installed in the eduserv.
 
 2. Download the "microk8s-eduserv.config" file, which you can find in the Lab 2 instructions and in the "Filer" section in Canvas. Rename it to just "config".
@@ -125,6 +125,8 @@ FOR LAB 2
 
 1. OK, you can (finally) test your DDD with Tala. For that, in another console (yes, we know, lots of them), go into "call_john_2020/ddds/call_john/" and run: 
 `$ tala test http://localhost:9090/interact call_john/test/interaction_tests_eng.txt`
+tala test http://localhost:9090/interact weather/test/interaction_tests_eng.txt
+
 
 You can also run an individual test in the file with the argument `-t`. For instance:
 `$ tala test http://localhost:9090/interact call_john/test/interaction_tests_eng.txt -t "call (incremental)"`

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+  <action name="top">
+    <one-of>
+      <item>main menu</item>
+      <item>top</item>
+      <item>beginning</item>
+      <item>cancel</item>
+      <item>forget it</item>
+      <item>never mind</item>
+      <item>abort</item>
+    </one-of>
+  </action>
+
+  <action name="up">
+    <one-of>
+      <item>up</item>
+      <item>back</item>
+      <item>go back</item>
+    </one-of>
+  </action>
+  
+  <individual name="country_uk">UK</individual>
+  <individual name="city_london">London</individual>
+  
+  <question speaker="user" predicate="temperature" type="wh_question" >
+	<one-of>
+		<item>what is the temperature</item>
+		<item>what is the temperature in  <slot predicate="city_to_search"/></item>
+		<item>what is the temperature in <slot predicate="city_to_search" type="individual"/> <slot predicate="country_to_search" type="individual"/></item>
+		<item>how warm is it</item>
+		<item>how cold is it</item>
+	</one-of>
+  </question>
+  
+  <question speaker="user" predicate="weather" type="wh_question">
+	<one-of>
+		<item>how is the weather</item>
+		<item>what's the weather like</item>
+		<item>what's the weather in <slot predicate="city_to_search"/></item>
+	</one-of>
+  </question>
+  
+  <question speaker="all" predicate="temperature" type="wh_question">the temperature</question>
+  <question speaker="all" predicate="weather" type="wh_question">the weather</question>
+
+  <question speaker="system" predicate="city_to_search" type="wh_question">what city</question>
+  
+  <question speaker="system" predicate="country_to_search" type="wh_question">what country</question>
+  
+  <answer speaker="system" predicate="temperature">it's <slot predicate="temperature"/></answer>
+  
+  <answer speaker="system" predicate="weather">it's <slot predicate="weather"/></answer>
+
+  
+  
+
+</grammar>

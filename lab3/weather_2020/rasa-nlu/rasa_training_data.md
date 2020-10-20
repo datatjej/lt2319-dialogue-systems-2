@@ -1,0 +1,201 @@
+## intent:weather:question::temperature
+- what is the temperature
+- what is the temperature in  [London]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the temperature in [London]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [UK]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it
+- how cold is it
+
+## intent:weather:question::weather
+- how is the weather
+- what's the weather like
+- what's the weather in [London]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+
+## intent:weather:answer
+- [London](weather.sort.city)
+- [UK](weather.sort.country)
+- [single](weather.sort.string)
+- [double word](weather.sort.string)
+- [three in one](weather.sort.string)
+- [hey make it four](weather.sort.string)
+- [the more the merrier five](weather.sort.string)
+- [calm down and count to six](weather.sort.string)
+- [bring them through to the jolly seven](weather.sort.string)
+- [noone counts toes like an eight toed guy](weather.sort.string)
+- [it matters to make sense for nine of us](weather.sort.string)
+- [would you bring ten or none to a desert island](weather.sort.string)
+
+## intent:weather:answer_negation
+- not [London](weather.sort.city)
+- not [UK](weather.sort.country)
+
+## intent:NEGATIVE
+- aboard
+- about
+- above
+- across
+- after
+- against
+- along
+- among
+- as
+- at
+- on
+- atop
+- before
+- behind
+- below
+- beneath
+- beside
+- between
+- beyond
+- but
+- by
+- come
+- down
+- during
+- except
+- for
+- from
+- in
+- inside
+- into
+- less
+- like
+- near
+- of
+- off
+- on
+- onto
+- opposite
+- out
+- outside
+- over
+- past
+- save
+- short
+- since
+- than
+- then
+- through
+- throughout
+- to
+- toward
+- under
+- underneath
+- unlike
+- until
+- up
+- upon
+- with
+- within
+- without
+- worth
+- is
+- it
+- the
+- a
+- am
+- are
+- them
+- this
+- that
+- I
+- you
+- he
+- she
+- they
+- them
+- his
+- her
+- my
+- mine
+- their
+- your
+- us
+- our
+- how
+- how's
+- how is
+- how's the
+- how is the
+- when
+- when's
+- when is
+- when is the
+- when's the
+- what
+- what is
+- what's
+- what's the
+- what is the
+- why
+- why is
+- why's
+- why is the
+- why's the
+- do
+- make
+- tell
+- start
+- stop
+- enable
+- disable
+- raise
+- lower
+- decrease
+- increase
+- act
+- determine
+- say
+- ask
+- go
+- shoot
+- wait
+- hang on
+- ok
+- show
+- help
+
+## intent:yes
+- yes
+- yeah
+- yep
+- sure
+- ok
+- of course
+- very well
+- fine
+- right
+- excellent
+- okay
+- perfect
+- I think so
+
+## intent:no
+- no
+- nope
+- no thanks
+- no thank you
+- negative
+- don't want to
+- don't
+- do not
+- please don't
+
+## intent:top
+- forget it
+- never mind
+- get me out of here
+- start over
+- beginning
+- never mind that
+- restart
+
+## intent:up
+- go back
+- back
+- previous
+- back to the previous
+- go to the previous
+- go back to the previous one
+
