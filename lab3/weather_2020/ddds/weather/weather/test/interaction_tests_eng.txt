@@ -11,6 +11,18 @@ S> It's * degrees.
 U> What is the temperature in London, UK
 S> It's * degrees.
 
+--- ask temp (city first)
+U> What is the temperature in Dresden
+S> What country?
+U> Germany
+S> It's * degrees.
+
+--- ask temp (country first)
+U> What is the temperature in the UK
+S> What city?
+U> London
+S> It's * degrees.
+
 --- ask temp (unit)
 U> What is the temperature in kelvin
 S> What city?
@@ -41,6 +53,12 @@ S> It's *
 
 --- ask weather (one shot)
 U> How is the weather in London, UK
+S> It's *
+
+--- ask weather (country first)
+U> How is the weather in Sweden
+S> What city?
+U> Gothenburg
 S> It's *
 
 --- ask weather (reformulation)

@@ -67,13 +67,16 @@
 		<item>the temperature please</item>
 		<item>what is the temperature</item>
 		<item>what is the temperature in  <slot predicate="city_to_search"/></item>
+		<item>what is the temperature in  <slot predicate="country_to_search"/></item>
 		<item>what is the temperature in  <slot predicate="selected_unit"/></item>
 		<item>what is the temperature in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>how warm is it</item>
+		<item>how warm is it in <slot predicate="country_to_search"/></item>
 		<item>how warm is it in <slot predicate="city_to_search"/></item>
 		<item>how warm is it in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>how cold is it</item>
 		<item>how cold is it in <slot predicate="city_to_search"/></item>
+		<item>how cold is it in <slot predicate="country_to_search"/></item>
 		<item>how cold is it in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>how many degrees <slot predicate="selected_unit"/> is it</item>
 		<item>what is the temperature in <slot predicate="city_to_search"/> in <slot predicate="selected_unit"/></item>
@@ -86,11 +89,13 @@
 		<item>weather</item>
 		<item>weather please</item>
 		<item>weather <slot predicate="city_to_search"/></item>
+		<item>weather <slot predicate="country_to_search"/></item>
 		<item>weather <slot predicate="city_to_search"/> <slot predicate="country_to_search"/></item>
 		<item>weather in <slot predicate="city_to_search"/></item>
 		<item>weather in <slot predicate="city_to_search"/> <slot predicate="country_to_search"/></item>
 		<item>how's the weather</item>
 		<item>how is the weather</item>
+		<item>how is the weather in <slot predicate="country_to_search"/></item>
 	    <item>how is the weather in <slot predicate="city_to_search"/></item>
 		<item>how is the weather in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>what's the weather like</item>

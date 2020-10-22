@@ -49,7 +49,7 @@ pip install --user rasa==1.10.14 tensorflow-text==2.1.1
 
 1. We need to generate data to train a Rasa model based on what you have in your "grammar_eng.xml" file. 
 In your console of your local machine go into the "call_john_2020/ddds/call_john/" directory (the one that contains "backend.config.json") and run:
-`$ tala generate rasa call_john eng > ../../rasa-nlu/rasa_training_data.md`
+`$ tala generate rasa weather eng > ../../rasa-nlu/rasa_training_data.md`
 This will create the "rasa_training_data.md" file, which contains the intents and entries. The file will be in the "call_john_2020/rasa-nlu/" directory.
 
 2. Log into to "mltgpu" via SSH. However, you need to tunnel a port to your localhost. This is the port that you will use to train your rasa model. For instance, let's take the port 5010:
