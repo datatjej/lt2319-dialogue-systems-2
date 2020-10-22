@@ -42,7 +42,7 @@ You need to do this only once.
 `$ ssh -p 62266 -Y -L 5010:127.0.0.1:5010 gusXXXXXX@mltgpu.flov.gu.se`
 
 2. In the mltgpu, you need to install rasa (1.10.14) and tensorflow-text (2.1.1) via pip
-`$ pip install --user rasa==1.10.14 tensorflow-text==2.1.1`
+pip install --user rasa==1.10.14 tensorflow-text==2.1.1
 
 
 ### Training Rasa models
@@ -53,10 +53,10 @@ In your console of your local machine go into the "call_john_2020/ddds/call_john
 This will create the "rasa_training_data.md" file, which contains the intents and entries. The file will be in the "call_john_2020/rasa-nlu/" directory.
 
 2. Log into to "mltgpu" via SSH. However, you need to tunnel a port to your localhost. This is the port that you will use to train your rasa model. For instance, let's take the port 5010:
-`$ ssh -p 62266 -Y -L 5010:127.0.0.1:5010 guserbto@mltgpu.flov.gu.se`
+ssh -p 62266 -Y -L 5010:127.0.0.1:5010 guserbto@mltgpu.flov.gu.se
 
 3. Then inside "mltgpu" run the following to start a Rasa server (see that the port is 5010 again):
-`$ rasa run --enable-api -vv -p 5010`
+rasa run --enable-api -vv -p 5010
 
 4. In your local machine go to the "call_john_2020/rasa-nlu/" directory and run the "train.py" script with the following arguments:
   -t TRAINING_DATA, --training-data TRAINING_DATA
@@ -65,7 +65,7 @@ This will create the "rasa_training_data.md" file, which contains the intents an
                         path to the file that contains YAML config
   -u URL, --url URL     URL to Rasa server
 Then, for instance:
-`$ python train.py -t rasa_training_data.md -c config.yml -u http://127.0.0.1:5010/model/train`
+python train.py -t rasa_training_data.md -c config.yml -u http://127.0.0.1:5010/model/train
 This script trains a model with your data in the Rasa server and download it to your local machine when it's done (again, see that we are using port 5010).
 
 5. When the training is done you can just stop the Rasa server (ctrl+C) and close your SSH to mltgpu.

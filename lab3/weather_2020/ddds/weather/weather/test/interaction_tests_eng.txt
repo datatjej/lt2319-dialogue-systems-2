@@ -5,12 +5,20 @@ S> What city?
 U> London
 S> What country?
 U> UK
-S> It's *
+S> It's * degrees.
 
---- ask weather
+--- ask temp (one shot)
+U> What is the temperature in London, UK
+S> It's * degrees.
+
+--- ask weather (incremental)
 U> How is the weather
 S> What city?
 U> London
 S> What country?
 U> UK
+S> It's *
+
+--- ask weather (one shot)
+U> How is the weather in London, UK
 S> It's *

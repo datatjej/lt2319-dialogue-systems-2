@@ -21,36 +21,52 @@
     </one-of>
   </action>
   
-  <individual name="country_uk">UK</individual>
-  <individual name="city_london">London</individual>
+    <!-- countries and cities -->
+  <individual name="country_uk">uk</individual>
+  <individual name="city_london">london</individual>
+  <individual name="country_sweden">sweden</individual>
+  <individual name="city_gothenburg">gothenburg</individual>
+  <individual name="country_germany">germany</individual>
+  <individual name="city_dresden">dresden</individual>
   
+   <!-- user questions -->
   <question speaker="user" predicate="temperature" type="wh_question" >
 	<one-of>
+		<item>the temperature please</item>
 		<item>what is the temperature</item>
 		<item>what is the temperature in  <slot predicate="city_to_search"/></item>
-		<item>what is the temperature in <slot predicate="city_to_search" type="individual"/> <slot predicate="country_to_search" type="individual"/></item>
+		<item>what is the temperature in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>how warm is it</item>
+		<item>how warm is it in <slot predicate="city_to_search"/></item>
+		<item>how warm is it in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>how cold is it</item>
+		<item>how cold is it in <slot predicate="city_to_search"/></item>
+		<item>how cold is it in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 	</one-of>
   </question>
   
   <question speaker="user" predicate="weather" type="wh_question">
 	<one-of>
+		<item>how's the weather</item>
 		<item>how is the weather</item>
+	    <item>how is the weather in <slot predicate="city_to_search"/></item>
+		<item>how is the weather in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>what's the weather like</item>
 		<item>what's the weather in <slot predicate="city_to_search"/></item>
+		<item>what's the weather in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 	</one-of>
   </question>
   
+  <!-- utterances uttered by 'all' -->
   <question speaker="all" predicate="temperature" type="wh_question">the temperature</question>
   <question speaker="all" predicate="weather" type="wh_question">the weather</question>
-
-  <question speaker="system" predicate="city_to_search" type="wh_question">what city</question>
   
+   <!-- system questions -->
+  <question speaker="system" predicate="city_to_search" type="wh_question">what city</question>
   <question speaker="system" predicate="country_to_search" type="wh_question">what country</question>
   
-  <answer speaker="system" predicate="temperature">it's <slot predicate="temperature"/></answer>
-  
+  <!-- system answers -->
+  <answer speaker="system" predicate="temperature">it's <slot predicate="temperature"/> degrees</answer>
   <answer speaker="system" predicate="weather">it's <slot predicate="weather"/></answer>
 
   
