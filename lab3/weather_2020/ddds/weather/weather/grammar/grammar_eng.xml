@@ -21,13 +21,36 @@
     </one-of>
   </action>
   
-    <!-- countries and cities -->
+    <!-- countries, cities and units -->
   <individual name="country_uk">uk</individual>
   <individual name="city_london">london</individual>
   <individual name="country_sweden">sweden</individual>
+  
   <individual name="city_gothenburg">gothenburg</individual>
   <individual name="country_germany">germany</individual>
   <individual name="city_dresden">dresden</individual>
+  
+  <individual name="metric">
+  <one-of>
+    <item>celsius</item>
+    <item>metric</item>
+	</one-of>
+  </individual>
+  
+  <individual name="standard">
+  <one-of>
+    <item>kelvin</item>
+    <item>standard</item>
+	</one-of>
+  </individual>
+  
+  <individual name="imperial">
+  <one-of>
+    <item>fahrenheit</item>
+    <item>imperial</item>
+	</one-of>
+  </individual>
+  
   
    <!-- user questions -->
   <question speaker="user" predicate="temperature" type="wh_question" >
@@ -35,6 +58,7 @@
 		<item>the temperature please</item>
 		<item>what is the temperature</item>
 		<item>what is the temperature in  <slot predicate="city_to_search"/></item>
+		<item>what is the temperature in  <slot predicate="selected_unit"/></item>
 		<item>what is the temperature in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 		<item>how warm is it</item>
 		<item>how warm is it in <slot predicate="city_to_search"/></item>
@@ -42,6 +66,9 @@
 		<item>how cold is it</item>
 		<item>how cold is it in <slot predicate="city_to_search"/></item>
 		<item>how cold is it in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
+		<item>how many degrees <slot predicate="selected_unit"/> is it</item>
+		<item>what is the temperature in <slot predicate="city_to_search"/> in <slot predicate="selected_unit"/></item>
+		<item>what is the temperature in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/> in <slot predicate="selected_unit"/></item>
 	</one-of>
   </question>
   

@@ -11,6 +11,14 @@ S> It's * degrees.
 U> What is the temperature in London, UK
 S> It's * degrees.
 
+--- ask temp (unit)
+U> What is the temperature in kelvin
+S> What city?
+U> Dresden
+S> What country?
+U> Germany
+S> It's * degrees.
+
 --- ask weather (incremental)
 U> How is the weather
 S> What city?

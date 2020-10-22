@@ -122,7 +122,7 @@ def action_success_response():
     )
     return response
 
-def get_data(city,country, unit="metric", key="55499e7f852813ee179f2dad9bf2e3c6"):
+def get_data(city, country, unit, key="55499e7f852813ee179f2dad9bf2e3c6"):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city},{country}&units={unit}&APPID={key}"
     print(url)
     request = Request(url)
@@ -134,11 +134,20 @@ def get_data(city,country, unit="metric", key="55499e7f852813ee179f2dad9bf2e3c6"
 def temperature():
     payload = request.get_json()
     city = payload["context"]["facts"]["city_to_search"]["grammar_entry"]
-    country = payload["context"]["facts"]["country_to_search"]["grammar_entry"]
-    data = get_data(city, country)
+    country = payload["context"]["facts"]["country_to_search"]["value"]
+    unit = "metric"
+    if "selected_unit" in payload['context']['facts'].keys():
+        selected_unit = payload["context"]["facts"]["selected_unit"]["grammar_entry"]
+        print("UNIT IN SELECTED_UNIT: ", selected_unit)
+        if selected_unit.lower() == "kelvin":
+            unit = "standard"
+        elif selected_unit.lower() == "fahrenheit":
+            unit = "imperial"
+    print("unit: ", unit)
+    data = get_data(city, country, unit)
     temp = data['main']['temp']
     tempstr = str(temp)
-    print(tempstr)
+    print(tempstr) 
     return query_response(value=tempstr, grammar_entry=None)
 	
 @app.route("/weather", methods=['POST'])
@@ -146,7 +155,7 @@ def weather():
     payload = request.get_json()
     city = payload["context"]["facts"]["city_to_search"]["grammar_entry"]
     country = payload["context"]["facts"]["country_to_search"]["grammar_entry"]
-    data = get_data(city, country)
+    data = get_data(city, country, unit="metric")
     weather = data["weather"][0]["description"]
     weather = str(weather)
     print(weather)
