@@ -19,10 +19,14 @@
  
  <individual name="city_london" sort="city"/>
  <individual name="city_gothenburg" sort="city"/>
+ <individual name="city_strasbourg" sort="city"/>
  <individual name="city_dresden" sort="city"/>
+ <individual name="city_delhi" sort="city"/>
 
  <individual name="country_uk" sort="country"/> 
  <individual name="country_sweden" sort="country"/>
- <individual name="country_germany" sort="country"/>  
+ <individual name="country_germany" sort="country"/>
+ <individual name="country_india" sort="country"/>
+ <individual name="country_france" sort="country"/>    
 
 </ontology>

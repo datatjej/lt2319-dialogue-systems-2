@@ -1,0 +1,852 @@
+## intent:weather:question::temperature
+- temp
+- temp please
+- temp [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- temp [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- the temperature please
+- what is the temperature
+- what is the temperature in  [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the temperature in  [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the temperature in  [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the temperature in  [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the temperature in  [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the temperature in  [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in  [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in  [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in  [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in  [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in  [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it
+- how warm is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how warm is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how warm is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how warm is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how warm is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how warm is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how warm is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it
+- how cold is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how cold is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how cold is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how cold is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how cold is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how cold is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how cold is it in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how many degrees [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} is it
+- how many degrees [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} is it
+- how many degrees [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} is it
+- how many degrees [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} is it
+- how many degrees [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} is it
+- how many degrees [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"} is it
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [celsius]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [metric]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [fahrenheit]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [imperial]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [kelvin]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+- what is the temperature in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"} in [standard]{"entity": "weather.sort.unit", "role": "weather.predicate.selected_unit"}
+
+## intent:weather:question::weather
+- weather
+- weather please
+- weather [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"} [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how's the weather
+- how is the weather
+- how is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- how is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- how is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather like
+- what's the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what's the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what's the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what's the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what's the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what's the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what's the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather
+- what is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}
+- what is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [london]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [gothenburg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [strasbourg]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [dresden]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [uk]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [sweden]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [germany]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [india]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+- what is the weather in [delhi]{"entity": "weather.sort.city", "role": "weather.predicate.city_to_search"}, [france]{"entity": "weather.sort.country", "role": "weather.predicate.country_to_search"}
+
+## intent:weather:answer
+- [london](weather.sort.city)
+- [gothenburg](weather.sort.city)
+- [strasbourg](weather.sort.city)
+- [dresden](weather.sort.city)
+- [delhi](weather.sort.city)
+- [uk](weather.sort.country)
+- [sweden](weather.sort.country)
+- [germany](weather.sort.country)
+- [india](weather.sort.country)
+- [france](weather.sort.country)
+- [celsius](weather.sort.unit)
+- [metric](weather.sort.unit)
+- [fahrenheit](weather.sort.unit)
+- [imperial](weather.sort.unit)
+- [kelvin](weather.sort.unit)
+- [standard](weather.sort.unit)
+- [single](weather.sort.string)
+- [double word](weather.sort.string)
+- [three in one](weather.sort.string)
+- [hey make it four](weather.sort.string)
+- [the more the merrier five](weather.sort.string)
+- [calm down and count to six](weather.sort.string)
+- [bring them through to the jolly seven](weather.sort.string)
+- [noone counts toes like an eight toed guy](weather.sort.string)
+- [it matters to make sense for nine of us](weather.sort.string)
+- [would you bring ten or none to a desert island](weather.sort.string)
+
+## intent:weather:answer_negation
+- not [london](weather.sort.city)
+- not [gothenburg](weather.sort.city)
+- not [strasbourg](weather.sort.city)
+- not [dresden](weather.sort.city)
+- not [delhi](weather.sort.city)
+- not [uk](weather.sort.country)
+- not [sweden](weather.sort.country)
+- not [germany](weather.sort.country)
+- not [india](weather.sort.country)
+- not [france](weather.sort.country)
+- not [celsius](weather.sort.unit)
+- not [metric](weather.sort.unit)
+- not [fahrenheit](weather.sort.unit)
+- not [imperial](weather.sort.unit)
+- not [kelvin](weather.sort.unit)
+- not [standard](weather.sort.unit)
+
+## intent:NEGATIVE
+- aboard
+- about
+- above
+- across
+- after
+- against
+- along
+- among
+- as
+- at
+- on
+- atop
+- before
+- behind
+- below
+- beneath
+- beside
+- between
+- beyond
+- but
+- by
+- come
+- down
+- during
+- except
+- for
+- from
+- in
+- inside
+- into
+- less
+- like
+- near
+- of
+- off
+- on
+- onto
+- opposite
+- out
+- outside
+- over
+- past
+- save
+- short
+- since
+- than
+- then
+- through
+- throughout
+- to
+- toward
+- under
+- underneath
+- unlike
+- until
+- up
+- upon
+- with
+- within
+- without
+- worth
+- is
+- it
+- the
+- a
+- am
+- are
+- them
+- this
+- that
+- I
+- you
+- he
+- she
+- they
+- them
+- his
+- her
+- my
+- mine
+- their
+- your
+- us
+- our
+- how
+- how's
+- how is
+- how's the
+- how is the
+- when
+- when's
+- when is
+- when is the
+- when's the
+- what
+- what is
+- what's
+- what's the
+- what is the
+- why
+- why is
+- why's
+- why is the
+- why's the
+- do
+- make
+- tell
+- start
+- stop
+- enable
+- disable
+- raise
+- lower
+- decrease
+- increase
+- act
+- determine
+- say
+- ask
+- go
+- shoot
+- wait
+- hang on
+- ok
+- show
+- help
+
+## intent:yes
+- yes
+- yeah
+- yep
+- sure
+- ok
+- of course
+- very well
+- fine
+- right
+- excellent
+- okay
+- perfect
+- I think so
+
+## intent:no
+- no
+- nope
+- no thanks
+- no thank you
+- negative
+- don't want to
+- don't
+- do not
+- please don't
+
+## intent:top
+- forget it
+- never mind
+- get me out of here
+- start over
+- beginning
+- never mind that
+- restart
+
+## intent:up
+- go back
+- back
+- previous
+- back to the previous
+- go to the previous
+- go back to the previous one
+
+## synonym:weather:metric
+- celsius
+- metric
+
+## synonym:weather:imperial
+- fahrenheit
+- imperial
+
+## synonym:weather:standard
+- kelvin
+- standard
+

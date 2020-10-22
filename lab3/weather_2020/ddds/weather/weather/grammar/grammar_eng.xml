@@ -22,13 +22,18 @@
   </action>
   
     <!-- countries, cities and units -->
-  <individual name="country_uk">uk</individual>
-  <individual name="city_london">london</individual>
-  <individual name="country_sweden">sweden</individual>
-  
+	
   <individual name="city_gothenburg">gothenburg</individual>
-  <individual name="country_germany">germany</individual>
   <individual name="city_dresden">dresden</individual>
+  <individual name="city_london">london</individual>
+  <individual name="city_delhi">delhi</individual>
+  <individual name="city_strasbourg">strasbourg</individual>
+  
+  <individual name="country_uk">uk</individual>
+  <individual name="country_france">france</individual>
+  <individual name="country_sweden">sweden</individual>
+  <individual name="country_india">india</individual>
+  <individual name="country_germany">germany</individual>
   
   <individual name="metric">
   <one-of>
@@ -55,6 +60,10 @@
    <!-- user questions -->
   <question speaker="user" predicate="temperature" type="wh_question" >
 	<one-of>
+		<item>temp</item>
+		<item>temp please</item>
+		<item>temp <slot predicate="city_to_search"/> <slot predicate="country_to_search"/> </item>
+		<item>temp <slot predicate="selected_unit"/> <slot predicate="city_to_search"/> <slot predicate="country_to_search"/> </item>
 		<item>the temperature please</item>
 		<item>what is the temperature</item>
 		<item>what is the temperature in  <slot predicate="city_to_search"/></item>
@@ -74,6 +83,12 @@
   
   <question speaker="user" predicate="weather" type="wh_question">
 	<one-of>
+		<item>weather</item>
+		<item>weather please</item>
+		<item>weather <slot predicate="city_to_search"/></item>
+		<item>weather <slot predicate="city_to_search"/> <slot predicate="country_to_search"/></item>
+		<item>weather in <slot predicate="city_to_search"/></item>
+		<item>weather in <slot predicate="city_to_search"/> <slot predicate="country_to_search"/></item>
 		<item>how's the weather</item>
 		<item>how is the weather</item>
 	    <item>how is the weather in <slot predicate="city_to_search"/></item>
@@ -81,6 +96,9 @@
 		<item>what's the weather like</item>
 		<item>what's the weather in <slot predicate="city_to_search"/></item>
 		<item>what's the weather in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
+	    <item>what is the weather</item>
+		<item>what is the weather in <slot predicate="city_to_search"/></item>
+		<item>what is the weather in <slot predicate="city_to_search"/>, <slot predicate="country_to_search"/></item>
 	</one-of>
   </question>
   

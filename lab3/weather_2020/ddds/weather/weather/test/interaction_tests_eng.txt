@@ -19,6 +19,18 @@ S> What country?
 U> Germany
 S> It's * degrees.
 
+--- ask temp (spelling mistake)
+U> What is the temprature in Delhi India
+S> It's * degrees.
+
+--- ask temp ('please')
+U> What is the temperature in Gothenburg Sweden please
+S> It's * degrees.
+
+--- ask temp ('thanks')
+U> Temperature in Strasbourg France thanks
+S> It's * degrees.
+
 --- ask weather (incremental)
 U> How is the weather
 S> What city?
@@ -29,4 +41,8 @@ S> It's *
 
 --- ask weather (one shot)
 U> How is the weather in London, UK
+S> It's *
+
+--- ask weather (reformulation)
+U> What's up with the weather in Gothenburg, Sweden
 S> It's *
